@@ -1,0 +1,21 @@
+.main{
+    height: 100%;
+    overflow: auto;
+    // display: flex;
+    flex: 1 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}

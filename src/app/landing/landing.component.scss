@@ -1,0 +1,78 @@
+.main1{
+    margin: 40px 0 80px 0;
+    /* flexbox */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    background-color: aquamarine;
+}
+
+.subs{
+    /* flexbox */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+	top: 3em;
+	bottom: 3em;
+	left: 3em;
+	right: 3em;
+    background-color: whitesmoke;
+}
+
+.main2{
+    width: 100%;
+    padding: 10px 0 10px 0;
+    margin-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: center;
+    position: absolute;
+    left:0;
+    bottom:0;
+    background-color: cornsilk;
+}
+
+.mat-card{
+    transition: none !important;
+    box-shadow: none !important;
+    background-color: whitesmoke;
+}
+
+h3{
+    text-align: center;
+    line-height: unset;
+}
+
+.text1{
+    font-weight: bold;
+    color: chocolate;
+}
+
+a{
+    margin: 0 5px 0 5px;
+}

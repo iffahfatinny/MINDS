@@ -1,0 +1,136 @@
+.main{
+    /* flexbox */
+    
+    margin: 40px 0 40px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+h3{
+    text-align: center;
+    line-height: normal;
+    
+}
+
+.text2{
+    color: chocolate;
+    font-weight: bold;
+    white-space: normal;
+}
+
+.right{
+    // min-width: auto;
+    height: 100%;
+    width: 50%;
+    float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    background-color: cornsilk;
+    
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    // margin: 50%;
+    min-width: auto;
+    float: left;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    background-color: aquamarine;
+    
+}
+
+.right > .right2{
+    // min-width: 50%;
+    width: 90%;
+    margin: 50%;
+    
+    // display: flex;
+    // flex-wrap: wrap;
+    // width: 70%;
+}
+
+// .card1{
+//     display: flex;
+//     flex-wrap: wrap;
+//     background-color: aquamarine;
+//     transition: none !important;
+//     box-shadow: none !important;
+//     width: 50%;
+// }
+
+// .card2{
+//     display: flex;
+//     flex-wrap: wrap;
+//     transition: none !important;
+//     box-shadow: none !important;
+//     background-color: whitesmoke;
+//     width: 50%;
+// }
+
+mat-form-field{
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+mat-form-field:focus{
+    border-bottom: blue;
+}
+
+mat-label{
+    font-weight: bold;
+}
+
+
+.icon{
+    margin: 0 5px 0 5px;
+}
+
+.signin{
+    margin: auto;
+    width: 50%;
+    display: block;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+button:hover{
+    background-color: gainsboro;
+}
+
